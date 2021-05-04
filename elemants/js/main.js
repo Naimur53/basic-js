@@ -14,6 +14,14 @@ console.log(low);
 console.log(low.indexOf("NAIMUR")); //idnexOf will show the position of it  the   in variable 
 console.log(low.split(""));//it will separet every word and space in string 
 var n1 = 44;
+var n=33.24534344344;
+var n5=33.24534344344;
 var n2 =" 30.3";
-n2 =parseInt(n2); //variable convertar int type .......parseFloat
+n2 =parseInt(n2); //variable convertar int (shortcart tecnic > variable_name= +variable_name) type .......parseFloat
 console.log(n2);
+var n3=4;
+n3=""+n3;
+console.log(typeof n3);
+var total = n5 + n;
+total=total.toFixed(2);//how many number it will show after desimal number 
+console.log(total);
