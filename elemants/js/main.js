@@ -39,3 +39,12 @@ console.log("this it floor Number",floorNumber);
 var random = Math.random()*100;//math.random wll pick up random number in between 0 to 1
 random=Math.round(random);
 console.log(random);
+
+
+if(n1<n2){
+    console.log("big");
+
+}
+else{
+    console.log("small");
+}
