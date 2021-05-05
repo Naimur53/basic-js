@@ -36,4 +36,6 @@ var ceilNumber = Math.ceil(absoluteNumber);//if there is more then none  after d
 console.log("this is the ceil number ",ceilNumber);
 var floorNumber = Math.floor(absoluteNumber);//it is opositiv of ceil numvber
 console.log("this it floor Number",floorNumber);
-var
+var random = Math.random()*100;//math.random wll pick up random number in between 0 to 1
+random=Math.round(random);
+console.log(random);
