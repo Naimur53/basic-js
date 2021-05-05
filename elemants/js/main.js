@@ -11,7 +11,7 @@ console.log(nsi_dfdfd);
 var promise = "i am Naimur rahman brother JKJKlks ifdsjfkdsjfkds ";
 var low = promise.toUpperCase(); //text will trasnfrom in uppercase 
 console.log(low);
-console.log(low.indexOf("NAIMUR")); //idnexOf will show the position of it  the   in variable 
+console.log(low.indexOf("NAIMUR")); //idnexOf will show the position of it  the in variable 
 console.log(low.split(""));//it will separet every word and space in string 
 var n1 = 44;
 var n=33.24534344344;
@@ -68,3 +68,6 @@ else{
 
 var date = new Date("2002-11-27");//show date make sure that d is capital latter and a speach between w and d
 console.log(date);
+var type = typeof n2;
+type=type.toUpperCase();
+console.log(type);
