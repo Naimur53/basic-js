@@ -48,3 +48,23 @@ if(n1<n2){
 else{
     console.log("small");
 }
+var job =true;
+var bank=1000;
+if( job==true && bank>100){
+    console.log("you can ");
+}
+else{
+    console.log("get out from here");
+}
+if( job==false || bank>100000){ //or ||
+    console.log("you or ");
+}
+else if (job==true){
+    console.log("job is true");
+}
+else{
+    console.log("get out from here or");
+}
+
+var date = new Date("2002-11-27");//show date make sure that d is capital latter and a speach between w and d
+console.log(date);
