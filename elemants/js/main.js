@@ -25,3 +25,15 @@ console.log(typeof n3);
 var total = n5 + n;
 total=total.toFixed(2);//how many number it will show after desimal number 
 console.log(total);
+var results=n2+" "+n3;
+console.log(results);
+var negativeNumber= -3.53334
+var absoluteNumber = Math.abs(negativeNumber);//convarter of negative number to positive number 
+console.log("negativer number convertet into positive: ",absoluteNumber);
+var roundedNumber = Math.round(absoluteNumber);//it will round the number . doshomikh ar pore 4 ar besi thakle number ar shathe ak jog korbe
+console.log("this number is rounded ",roundedNumber);
+var ceilNumber = Math.ceil(absoluteNumber);//if there is more then none  after desimal the number will increase 1 (0 thakleo barbe)
+console.log("this is the ceil number ",ceilNumber);
+var floorNumber = Math.floor(absoluteNumber);//it is opositiv of ceil numvber
+console.log("this it floor Number",floorNumber);
+var
