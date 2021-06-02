@@ -27,8 +27,8 @@ total=total.toFixed(2);//how many number it will show after desimal number
 console.log(total);
 var results=n2+" "+n3;
 console.log(results);
-var negativeNumber= -3.53334
-var absoluteNumber = Math.abs(negativeNumber);//convarter of negative number to positive number 
+var negativeNumber= -3.53334;
+var absoluteNumber = Math.abs("ABSULUTE NUMBER",negativeNumber);//convarter of negative number to positive number 
 console.log("negativer number convertet into positive: ",absoluteNumber);
 var roundedNumber = Math.round(absoluteNumber);//it will round the number . doshomikh ar pore 4 ar besi thakle number ar shathe ak jog korbe
 console.log("this number is rounded ",roundedNumber);
@@ -71,3 +71,17 @@ console.log(date);
 var type = typeof n2;
 type=type.toUpperCase();
 console.log(type);
+//var .var(); its retrun value 
+// .parse(var )its need another variable to show variable 
+function argeu(num){//the arguments is inbulid thing that can show how many valu we pass in function though we declare 1 perameter 
+    console.log(arguments);
+    var sum =0;
+    for (let i = 0; i < arguments.length; i++) {
+        const element = arguments[i];
+        console.log(element);
+        sum=sum+element;
+       
+    }
+    console.log("sum of total pass vale " ,sum);
+}
+argeu(1,5,1,5,5525,2,5);
