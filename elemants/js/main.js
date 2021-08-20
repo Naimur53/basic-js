@@ -275,7 +275,7 @@ function dupArray(array) {
     return un;
 }
 let checkingDup = dupArray(duplicateArray);
-console.log(checkingDup);
+console.log('duplicate array', checkingDup);
 
 let kiso = "naimur"
 let revers = '';
@@ -303,6 +303,7 @@ console.log(productTotal);
 //searching thing by js
 
 const products = [
+
     'kd eidf lorem',
     'lorem sefdf dsf sadi',
     'dfedrer 33er loreM'
@@ -315,7 +316,7 @@ const searching = 'lorem';
 //     }
 
 // }
-// includes will return true or false -----------------
+// includes will return true or false ----------------- -
 // for (const product of products) {
 //     if (product.toLowerCase().includes(searching)) {
 //         output.push(product);
@@ -336,4 +337,64 @@ for (const product of products) {
     }
 
 }
-console.log(output);
+console.log('output', output);
+console.log(searching.split(''));
+
+//split name to one word name 
+const yourName = "naimur rahman";
+const oneWord = yourName.split('a');
+// let allWord = '';
+// for (const word of oneWord) {
+
+//     allWord = allWord + word;
+// }
+// with join method
+let allWord = oneWord.join('');
+console.log('your join name', allWord);
+
+//deferent between slice and substr
+console.log('slice your name ', yourName.slice(1, 5));//end 5 will ---- index 5 are porbo porjonto idbo 
+console.log('substr your name ', yourName.substr(1, 5))// end 5 will --- one ar por koita string dorker
+// string Substring
+console.log('substring your name ', yourName.substring(1, 5));//same as slice
+
+// concat is just like +ing tow string -------------
+// concat can also + tow array
+const ourArray = [223, 23244, 2323334, 4545]
+const ourArray2 = [223, 23244, 2323334, 4545]
+const combine = ourArray.concat(ourArray2);
+console.log(combine);
+//splice will thing remove form and replece element after 2 perameter  array------------
+combine.splice(3, 2, 'sadi');//after 3 index   2 element will count as remove....3 index also count
+console.log(combine);
+
+// to sortet an array--------------
+// this shot function will organje the array item as small to big
+const ourSortArray = [323, 134, 1, 32, 2, 5, 4];
+const sortet = ourSortArray.sort(function (a, b) {
+    return a - b;
+});
+console.log("sortet array", sortet);
+
+//checking array is arry-----------
+const hiArray = [];
+if (Array.isArray(hiArray)) {
+    console.log('this will return boleen type')
+}
+// learning about error
+const myName = "sadi";
+
+// try {
+//     myName = 'dfdf'
+// }
+// catch (error) {
+//     console.log(error);
+// }
+// date game 
+const ourDate = new Date('1971-3-26');
+console.log(ourDate);
+const anotherDate = new Date(1971, 3, 26, 1, 1, 1);
+console.log(anotherDate);
+
+const string = ["kier ki khover", "kier ki khover2"];
+console.log(string.join(' '))
